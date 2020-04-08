@@ -1,0 +1,36 @@
+.card {
+  width: 400px;
+  margin: 10px;
+  background-color: white;
+  border: solid 1px;
+  box-shadow: 0 2p 2px 0 rgba(0, 0 , 0, 0.1);
+}
+
+.placeholder-for-image {
+  width: 400px;
+  height: 250px;
+  background-color: red;
+}
+
+.expandMoreContent {
+  height: 40px;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+  position: relative;
+}
+
+.expandMoreContent.expand-active {
+  height: auto;
+  transition: height 0.5s ease-in-out;
+}
+
+.expandMoreHolder{
+  padding: 15px 0;
+  text-align: center;
+}
+
+.btn-expand-more {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.2)
+  display: inline-block;
+}
